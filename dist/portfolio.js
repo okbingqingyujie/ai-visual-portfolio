@@ -1,8 +1,8 @@
 (() => {
   const data=window.PORTFOLIO || {};
   document.querySelectorAll('[data-profile]').forEach(el=>{ const value=data[el.dataset.profile];if(value)el.textContent=value; });
-  if(data.name)document.title=`${data.name} · 作品集`;
-  if(data.avatar){const img=new Image();img.src=data.avatar;img.alt=`${data.name || '设计师'}的头像`;img.onload=()=>{document.querySelector('#portrait').replaceChildren(img);};}
+  if(data.name)document.title=[data.name,data.role,'作品集'].filter(Boolean).join(' · ');
+  if(data.avatar){const img=new Image();img.src=data.avatar;img.alt=`${data.name || '个人'}的头像`;img.onload=()=>{document.querySelector('#portrait').replaceChildren(img);};}
   [['projects','completedProjects'],['years','yearsExperience']].forEach(([key,field])=>{const value=data[field];if(value!==null&&value!==undefined&&value!==''){const el=document.querySelector(`[data-metric="${key}"]`);el.textContent=String(value)+(key==='years'?' 年':'');el.parentElement.querySelector('.pending-label').hidden=true;}});
   if(data.experience?.length){ const list=document.querySelector('#experience-list');list.replaceChildren();data.experience.forEach(item=>{const row=document.createElement('div');row.className='experience-item';const date=document.createElement('span');date.className='experience-date';date.textContent=item.period;const content=document.createElement('div');const title=document.createElement('strong');title.textContent=item.title;const description=document.createElement('p');description.textContent=item.description;content.append(title,description);row.append(date,content);list.append(row);});}
   if(data.email){const link=document.querySelector('#email-link');link.textContent=data.email;link.href=`mailto:${data.email}`;link.hidden=false;document.querySelector('#email-pending').hidden=true;const cta=document.querySelector('#email-action');cta.href=link.href;cta.replaceChildren(document.createTextNode('发起一次对话 ↗'));}
