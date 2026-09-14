@@ -2,7 +2,7 @@
   "name": "ai-visual-portfolio",
   "version": "1.0.0",
   "private": true,
-  "description": "A local-first AI visual designer portfolio",
+  "description": "A local-first AI product manager portfolio",
   "scripts": { "dev": "node preview.mjs", "start": "node preview.mjs" },
   "engines": { "node": ">=18" }
 }
