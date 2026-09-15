@@ -2,7 +2,9 @@
 
 这是可运行、可本地预览、可继续编辑的静态网站。无需安装第三方依赖；`dist/` 是完整的发布目录。
 
-在线访问：[卫婕的个人作品集](https://ai-visual-portfolio-zyx.pimsdofearmoli.chatgpt.site)
+在线访问：[卫婕的个人作品集](https://okbingqingyujie.github.io/ai-visual-portfolio/)
+
+公开网站现由 GitHub Pages 托管，使用 `gh-pages` 分支根目录，保留 `.nojekyll`。`main` 分支中的 `dist/` 是编辑源；后续更新页面时，需要将完整 `dist/` 内容同步到 `gh-pages` 根目录，再等待 Pages 发布成功。原 `chatgpt.site` 地址在部分手机网络中被平台安全服务拦截，因此以这里的 GitHub Pages 地址为主入口。
 
 ## 打开方式
 
