@@ -4,4 +4,4 @@
 
 | 文章 | 正文 | 配图 |
 | --- | --- | --- |
-| [你和 AI 聊了这么久，它为什么还是不懂你](ai-memory-user-understanding/README.md) | 已归档 | 4 张原图等待下载授权 |
+| [你和 AI 聊了这么久，它为什么还是不懂你](ai-memory-user-understanding/README.md) | 已归档 | 4 张原图已归档 |

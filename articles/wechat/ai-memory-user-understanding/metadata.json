@@ -5,24 +5,56 @@
   "original_url": "https://mp.weixin.qq.com/s/QixMZiqFT1r5fpDa1adjOg",
   "archived_at": "2026-09-15",
   "content_status": "complete",
-  "image_status": "pending_download_authorization",
+  "image_status": "complete",
   "image_count": 4,
   "images": [
     {
       "index": 1,
-      "status": "pending_download_authorization"
+      "path": "images/figure-01.png",
+      "alt": "用户在 AI 对话中反复补充前情的困扰",
+      "status": "complete",
+      "content_type": "image/png",
+      "width": 2048,
+      "height": 1152,
+      "size_bytes": 2128459,
+      "sha256": "20dd457bd54e4fb8b7b76810659e5fde028fc9fc74130a912ba9b49c03c63888",
+      "git_blob_sha": "06de11529bb7c873a0600e0ac9e428e9e4e03e19"
     },
     {
       "index": 2,
-      "status": "pending_download_authorization"
+      "path": "images/figure-02.png",
+      "alt": "稳定偏好、身份信息与临时状态的不同保存方式",
+      "status": "complete",
+      "content_type": "image/png",
+      "width": 2048,
+      "height": 1152,
+      "size_bytes": 2410192,
+      "sha256": "53e9e0cb455fc5a25038a08ad5424c35fc511b448b1b817dbee570c182bb0624",
+      "git_blob_sha": "e0e8bff9d91bf70e3b9c87e2f544e57f79a4689a"
     },
     {
       "index": 3,
-      "status": "pending_download_authorization"
+      "path": "images/figure-03.png",
+      "alt": "AI 从历史资料中检索和整理有用信息",
+      "status": "complete",
+      "content_type": "image/png",
+      "width": 2048,
+      "height": 1152,
+      "size_bytes": 2672703,
+      "sha256": "359eb6efa1d2f62be7eee4a3c936e09a0b6b5880b4d5752abd0dcd93959d1fa0",
+      "git_blob_sha": "8d02306085b5ecee560403d50da743163d941c6e"
     },
     {
       "index": 4,
-      "status": "pending_download_authorization"
+      "path": "images/figure-04.png",
+      "alt": "AI 根据用户变化更新当前状态并归档旧记忆",
+      "status": "complete",
+      "content_type": "image/png",
+      "width": 2048,
+      "height": 1152,
+      "size_bytes": 2430744,
+      "sha256": "ba688cb2bc46e31cc0b63dbc3f700115d17ca47d17db0deef3fed393a1fe8cb1",
+      "git_blob_sha": "8ba4a7e457f458bb70652aa7d6851fda4d971207"
     }
   ]
 }
